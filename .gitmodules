@@ -7,3 +7,6 @@
 [submodule "MTLManagedObjectAdapterTests/expecta"]
 	path = MTLManagedObjectAdapterTests/expecta
 	url = https://github.com/specta/expecta.git
+[submodule "External/Mantle"]
+	path = External/Mantle
+	url = https://github.com/Mantle/Mantle.git
