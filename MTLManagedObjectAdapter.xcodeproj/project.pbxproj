@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5470B50B1985122200E4D941 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50A1985122200E4D941 /* Cocoa.framework */; };
 		5470B5191985122200E4D941 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
 		5470B5201985122200E4D941 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B51F1985122200E4D941 /* XCTest.framework */; };
-		5470B5211985122200E4D941 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50A1985122200E4D941 /* Cocoa.framework */; };
 		5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5071985122200E4D941 /* MTLManagedObjectAdapter.framework */; };
-		5470B52C1985122300E4D941 /* MTLManagedObjectAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterTests.m */; };
+		5470B52C1985122300E4D941 /* MTLManagedObjectAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */; };
 		5470B53B1985123E00E4D941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B53A1985123E00E4D941 /* Foundation.framework */; };
 		5470B5481985123E00E4D941 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B51F1985122200E4D941 /* XCTest.framework */; };
 		5470B5491985123E00E4D941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B53A1985123E00E4D941 /* Foundation.framework */; };
-		5470B54B1985123E00E4D941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B54A1985123E00E4D941 /* UIKit.framework */; };
 		5470B54E1985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5391985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a */; };
 		5470B5621985124800E4D941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B53A1985123E00E4D941 /* Foundation.framework */; };
 		5470B583198512AE00E4D941 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5171985122200E4D941 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5470B584198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
 		5470B585198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
-		5470B5AB198516AF00E4D941 /* libExpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5A9198516AF00E4D941 /* libExpecta-iOS.a */; };
-		5470B5AC198516AF00E4D941 /* libSpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5AA198516AF00E4D941 /* libSpecta-iOS.a */; };
-		5470B5AF198516C100E4D941 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5AD198516C100E4D941 /* libExpecta.a */; };
-		5470B5B0198516C100E4D941 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5AE198516C100E4D941 /* libSpecta-OSX.a */; };
+		5470B5BB19851CA800E4D941 /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5BA19851CA800E4D941 /* libMantle-iOS.a */; };
+		5470B5BD19851CAD00E4D941 /* libMantle-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */; };
+		5470B5C619851F3900E4D941 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */; };
+		5470B5C719851F3900E4D941 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */; };
+		5470B5C819851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
+		5470B5C919851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
+		5470B5CA19851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
+		5470B5CB19851F3900E4D941 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C319851F3900E4D941 /* EXTScope.h */; };
+		5470B5CC19851F3900E4D941 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
+		5470B5CD19851F3900E4D941 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
+		5470B5CE19851F3900E4D941 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
+		5470B5CF19851F3900E4D941 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C519851F3900E4D941 /* metamacros.h */; };
+		5470B5D51985208C00E4D941 /* MTLCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */; };
+		5470B5D61985208C00E4D941 /* MTLCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */; };
+		5470B5D71985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */; };
+		5470B5D81985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */; };
+		5470B5DB1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
+		5470B5DC1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
+		5470B5DE198520C500E4D941 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5DD198520C500E4D941 /* CoreData.framework */; };
+		5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50E1985122200E4D941 /* CoreData.framework */; };
+		5470B5E41985234300E4D941 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5E0198520E100E4D941 /* Mantle.framework */; };
+		5470B5E51985235200E4D941 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5E0198520E100E4D941 /* Mantle.framework */; };
+		54B8B01D1985305D0035AF84 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */; };
+		54B8B01F198530650035AF84 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B01E198530650035AF84 /* libExpecta.a */; };
+		54B8B021198530B20035AF84 /* libExpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B020198530B20035AF84 /* libExpecta-iOS.a */; };
+		54B8B023198530B80035AF84 /* libSpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B022198530B80035AF84 /* libSpecta-iOS.a */; };
+		54B8B024198531190035AF84 /* MTLManagedObjectAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +88,6 @@
 
 /* Begin PBXFileReference section */
 		5470B5071985122200E4D941 /* MTLManagedObjectAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTLManagedObjectAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5470B50A1985122200E4D941 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5470B50D1985122200E4D941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5470B50E1985122200E4D941 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5470B50F1985122200E4D941 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -79,11 +98,10 @@
 		5470B51E1985122200E4D941 /* MTLManagedObjectAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTLManagedObjectAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470B51F1985122200E4D941 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5470B5271985122200E4D941 /* MTLManagedObjectAdapterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTLManagedObjectAdapterTests-Info.plist"; sourceTree = "<group>"; };
-		5470B52B1985122300E4D941 /* MTLManagedObjectAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapterTests.m; sourceTree = "<group>"; };
+		5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapterSpec.m; sourceTree = "<group>"; };
 		5470B5391985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMTLManagedObjectAdapter-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470B53A1985123E00E4D941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5470B5471985123E00E4D941 /* MTLManagedObjectAdapter-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTLManagedObjectAdapter-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5470B54A1985123E00E4D941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5470B5611985124800E4D941 /* libMTLManagedObjectAdapter-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMTLManagedObjectAdapter-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470B588198514F700E4D941 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		5470B58A198514F700E4D941 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -102,10 +120,25 @@
 		5470B59A198514F700E4D941 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		5470B59B198514F700E4D941 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5470B5A81985161600E4D941 /* MTLManagedObjectAdapterTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLManagedObjectAdapterTests-Prefix.pch"; sourceTree = "<group>"; };
-		5470B5A9198516AF00E4D941 /* libExpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libExpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos/libExpecta-iOS.a"; sourceTree = "<group>"; };
-		5470B5AA198516AF00E4D941 /* libSpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/specta/build/Debug-iphoneos/libSpecta-iOS.a"; sourceTree = "<group>"; };
-		5470B5AD198516C100E4D941 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = MTLManagedObjectAdapterTests/expecta/build/Debug/libExpecta.a; sourceTree = "<group>"; };
-		5470B5AE198516C100E4D941 /* libSpecta-OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-OSX.a"; path = "MTLManagedObjectAdapterTests/specta/build/Debug/libSpecta-OSX.a"; sourceTree = "<group>"; };
+		5470B5BA19851CA800E4D941 /* libMantle-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMantle-iOS.a"; path = "External/Mantle/build/Debug/libMantle-iOS.a"; sourceTree = "<group>"; };
+		5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMantle-Mac.a"; path = "External/Mantle/build/Debug/libMantle-Mac.a"; sourceTree = "<group>"; };
+		5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		5470B5C319851F3900E4D941 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		5470B5C419851F3900E4D941 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		5470B5C519851F3900E4D941 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		5470B5D11985208C00E4D941 /* MTLCoreDataObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLCoreDataObjects.h; sourceTree = "<group>"; };
+		5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLCoreDataObjects.m; sourceTree = "<group>"; };
+		5470B5D31985208C00E4D941 /* MTLCoreDataTestModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLCoreDataTestModels.h; sourceTree = "<group>"; };
+		5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLCoreDataTestModels.m; sourceTree = "<group>"; };
+		5470B5DA1985209E00E4D941 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		5470B5DD198520C500E4D941 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		5470B5E0198520E100E4D941 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../Library/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
+		54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-OSX.a"; path = "MTLManagedObjectAdapterTests/specta/build/Debug/libSpecta-OSX.a"; sourceTree = "<group>"; };
+		54B8B01E198530650035AF84 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = MTLManagedObjectAdapterTests/expecta/build/Debug/libExpecta.a; sourceTree = "<group>"; };
+		54B8B020198530B20035AF84 /* libExpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libExpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos/libExpecta-iOS.a"; sourceTree = "<group>"; };
+		54B8B022198530B80035AF84 /* libSpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/specta/build/Test-iphoneos/libSpecta-iOS.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B50B1985122200E4D941 /* Cocoa.framework in Frameworks */,
+				5470B5E41985234300E4D941 /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,11 +154,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5AF198516C100E4D941 /* libExpecta.a in Frameworks */,
-				5470B5B0198516C100E4D941 /* libSpecta-OSX.a in Frameworks */,
-				5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */,
-				5470B5211985122200E4D941 /* Cocoa.framework in Frameworks */,
+				5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */,
 				5470B5201985122200E4D941 /* XCTest.framework in Frameworks */,
+				5470B5E51985235200E4D941 /* Mantle.framework in Frameworks */,
+				54B8B01D1985305D0035AF84 /* libSpecta-OSX.a in Frameworks */,
+				54B8B01F198530650035AF84 /* libExpecta.a in Frameworks */,
+				5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5BB19851CA800E4D941 /* libMantle-iOS.a in Frameworks */,
 				5470B53B1985123E00E4D941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,12 +176,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5AB198516AF00E4D941 /* libExpecta-iOS.a in Frameworks */,
-				5470B5AC198516AF00E4D941 /* libSpecta-iOS.a in Frameworks */,
-				5470B54E1985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a in Frameworks */,
-				5470B5481985123E00E4D941 /* XCTest.framework in Frameworks */,
-				5470B54B1985123E00E4D941 /* UIKit.framework in Frameworks */,
+				5470B5DE198520C500E4D941 /* CoreData.framework in Frameworks */,
 				5470B5491985123E00E4D941 /* Foundation.framework in Frameworks */,
+				5470B5481985123E00E4D941 /* XCTest.framework in Frameworks */,
+				5470B54E1985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a in Frameworks */,
+				54B8B021198530B20035AF84 /* libExpecta-iOS.a in Frameworks */,
+				54B8B023198530B80035AF84 /* libSpecta-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5BD19851CAD00E4D941 /* libMantle-Mac.a in Frameworks */,
 				5470B5621985124800E4D941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,14 +224,17 @@
 		5470B5091985122200E4D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5470B5AD198516C100E4D941 /* libExpecta.a */,
-				5470B5AE198516C100E4D941 /* libSpecta-OSX.a */,
-				5470B5A9198516AF00E4D941 /* libExpecta-iOS.a */,
-				5470B5AA198516AF00E4D941 /* libSpecta-iOS.a */,
-				5470B50A1985122200E4D941 /* Cocoa.framework */,
-				5470B51F1985122200E4D941 /* XCTest.framework */,
+				54B8B022198530B80035AF84 /* libSpecta-iOS.a */,
+				54B8B020198530B20035AF84 /* libExpecta-iOS.a */,
+				54B8B01E198530650035AF84 /* libExpecta.a */,
+				54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */,
+				5470B5DD198520C500E4D941 /* CoreData.framework */,
 				5470B53A1985123E00E4D941 /* Foundation.framework */,
-				5470B54A1985123E00E4D941 /* UIKit.framework */,
+				5470B5BF19851F3900E4D941 /* libextobjc */,
+				5470B5BA19851CA800E4D941 /* libMantle-iOS.a */,
+				5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */,
+				5470B5E0198520E100E4D941 /* Mantle.framework */,
+				5470B51F1985122200E4D941 /* XCTest.framework */,
 				5470B50C1985122200E4D941 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -233,7 +272,7 @@
 		5470B5251985122200E4D941 /* MTLManagedObjectAdapterTests */ = {
 			isa = PBXGroup;
 			children = (
-				5470B52B1985122300E4D941 /* MTLManagedObjectAdapterTests.m */,
+				5470B5D01985202F00E4D941 /* Specs */,
 				5470B5261985122200E4D941 /* Supporting Files */,
 			);
 			path = MTLManagedObjectAdapterTests;
@@ -242,6 +281,11 @@
 		5470B5261985122200E4D941 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5470B5D11985208C00E4D941 /* MTLCoreDataObjects.h */,
+				5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */,
+				5470B5D31985208C00E4D941 /* MTLCoreDataTestModels.h */,
+				5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */,
+				5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */,
 				5470B5A81985161600E4D941 /* MTLManagedObjectAdapterTests-Prefix.pch */,
 				5470B5271985122200E4D941 /* MTLManagedObjectAdapterTests-Info.plist */,
 			);
@@ -311,6 +355,28 @@
 			path = "Mac OS X";
 			sourceTree = "<group>";
 		};
+		5470B5BF19851F3900E4D941 /* libextobjc */ = {
+			isa = PBXGroup;
+			children = (
+				5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */,
+				5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */,
+				5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */,
+				5470B5C319851F3900E4D941 /* EXTScope.h */,
+				5470B5C419851F3900E4D941 /* EXTScope.m */,
+				5470B5C519851F3900E4D941 /* metamacros.h */,
+			);
+			name = libextobjc;
+			path = MTLManagedObjectAdapter/extobjc;
+			sourceTree = "<group>";
+		};
+		5470B5D01985202F00E4D941 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */,
+			);
+			name = Specs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -318,7 +384,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5C719851F3900E4D941 /* EXTRuntimeExtensions.h in Headers */,
 				5470B583198512AE00E4D941 /* MTLManagedObjectAdapter.h in Headers */,
+				5470B5C619851F3900E4D941 /* EXTKeyPathCoding.h in Headers */,
+				5470B5CF19851F3900E4D941 /* metamacros.h in Headers */,
+				5470B5CB19851F3900E4D941 /* EXTScope.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +550,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5CC19851F3900E4D941 /* EXTScope.m in Sources */,
+				5470B5C819851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */,
 				5470B5191985122200E4D941 /* MTLManagedObjectAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +560,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B52C1985122300E4D941 /* MTLManagedObjectAdapterTests.m in Sources */,
+				5470B52C1985122300E4D941 /* MTLManagedObjectAdapterSpec.m in Sources */,
+				5470B5D71985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */,
+				5470B5D51985208C00E4D941 /* MTLCoreDataObjects.m in Sources */,
+				5470B5DB1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +571,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5CD19851F3900E4D941 /* EXTScope.m in Sources */,
+				5470B5C919851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */,
 				5470B584198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +581,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5DC1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */,
+				54B8B024198531190035AF84 /* MTLManagedObjectAdapterSpec.m in Sources */,
+				5470B5D81985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */,
+				5470B5D61985208C00E4D941 /* MTLCoreDataObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +592,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5470B5CE19851F3900E4D941 /* EXTScope.m in Sources */,
+				5470B5CA19851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */,
 				5470B585198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +695,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/Mantle/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapter/MTLManagedObjectAdapter-Prefix.pch";
@@ -628,6 +716,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/Mantle/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapter/MTLManagedObjectAdapter-Prefix.pch";
@@ -646,6 +739,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Prefix.pch";
@@ -660,11 +754,16 @@
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -678,6 +777,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Prefix.pch";
@@ -688,11 +788,16 @@
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -736,7 +841,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -753,15 +858,17 @@
 					"MTLManagedObjectAdapterTests/expecta/src/**",
 				);
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Test-iphoneos",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -770,7 +877,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -783,16 +890,17 @@
 					"MTLManagedObjectAdapterTests/expecta/src/**",
 				);
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Test-iphoneos",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -811,14 +919,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		5470B57F1985124800E4D941 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5470B594198514F700E4D941 /* iOS-StaticLibrary.xcconfig */;
+			baseConfigurationReference = 5470B59A198514F700E4D941 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MTLManagedObjectAdapter_Mac.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -826,7 +933,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -879,6 +985,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/Mantle/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapter/MTLManagedObjectAdapter-Prefix.pch";
@@ -897,6 +1008,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Prefix.pch";
@@ -911,11 +1023,16 @@
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Test;
@@ -943,7 +1060,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -960,15 +1077,17 @@
 					"MTLManagedObjectAdapterTests/expecta/src/**",
 				);
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Test-iphoneos",
 				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Test;
@@ -987,7 +1106,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Test;
@@ -1033,6 +1151,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/Mantle/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapter/MTLManagedObjectAdapter-Prefix.pch";
@@ -1051,6 +1174,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Prefix.pch";
@@ -1061,11 +1185,16 @@
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Profile;
@@ -1090,7 +1219,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1103,23 +1232,24 @@
 					"MTLManagedObjectAdapterTests/expecta/src/**",
 				);
 				INFOPLIST_FILE = "MTLManagedObjectAdapterTests/MTLManagedObjectAdapterTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/MTLManagedObjectAdapterTests/specta/build/Test-iphoneos",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Profile;
 		};
 		5470B5A71985155E00E4D941 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5470B594198514F700E4D941 /* iOS-StaticLibrary.xcconfig */;
+			baseConfigurationReference = 5470B59A198514F700E4D941 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MTLManagedObjectAdapter_Mac.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1127,7 +1257,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1203,6 +1332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5470B5DA1985209E00E4D941 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 5470B5DA1985209E00E4D941 /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5470B4FE1985122200E4D941 /* Project object */;
 }
