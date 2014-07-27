@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'MantleTests' target in the 'Mantle' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <MTLManagedObjectAdapter/MTLManagedObjectAdapter.h>
+
+	#import "Specta.h"
+
+	#define EXP_SHORTHAND
+	#import "Expecta.h"
+#endif

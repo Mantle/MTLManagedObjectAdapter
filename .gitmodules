@@ -1,0 +1,9 @@
+[submodule "Configuration"]
+	path = Configuration
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "MTLManagedObjectAdapterTests/specta"]
+	path = MTLManagedObjectAdapterTests/specta
+	url = https://github.com/specta/specta.git
+[submodule "MTLManagedObjectAdapterTests/expecta"]
+	path = MTLManagedObjectAdapterTests/expecta
+	url = https://github.com/specta/expecta.git
