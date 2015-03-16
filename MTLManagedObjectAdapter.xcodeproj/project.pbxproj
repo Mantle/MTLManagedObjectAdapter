@@ -31,6 +31,10 @@
 		D0EB705F1AB748C900BBB455 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB705D1AB7487D00BBB455 /* Mantle.framework */; };
 		D0EB70601AB748E700BBB455 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
 		D0EB70611AB748E700BBB455 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
+		D0EB70651AB74A0A00BBB455 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70631AB74A0A00BBB455 /* Quick.framework */; };
+		D0EB70671AB74A2200BBB455 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70661AB74A2200BBB455 /* Nimble.framework */; };
+		D0EB70681AB74A2200BBB455 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70661AB74A2200BBB455 /* Nimble.framework */; };
+		D0EB70691AB74A2900BBB455 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70631AB74A0A00BBB455 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +99,8 @@
 		D0EB70581AB747C300BBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB70591AB747E300BBB455 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		D0EB705D1AB7487D00BBB455 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB70631AB74A0A00BBB455 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB70661AB74A2200BBB455 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70671AB74A2200BBB455 /* Nimble.framework in Frameworks */,
+				D0EB70651AB74A0A00BBB455 /* Quick.framework in Frameworks */,
 				5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */,
 				5470B5201985122200E4D941 /* XCTest.framework in Frameworks */,
 				5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */,
@@ -130,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70691AB74A2900BBB455 /* Quick.framework in Frameworks */,
+				D0EB70681AB74A2200BBB455 /* Nimble.framework in Frameworks */,
 				D0EB703F1AB744E400BBB455 /* MTLManagedObjectAdapter.framework in Frameworks */,
 				D0EB705C1AB747F000BBB455 /* CoreData.framework in Frameworks */,
 			);
@@ -164,6 +174,8 @@
 		5470B5091985122200E4D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB70661AB74A2200BBB455 /* Nimble.framework */,
+				D0EB70631AB74A0A00BBB455 /* Quick.framework */,
 				D0EB705D1AB7487D00BBB455 /* Mantle.framework */,
 				D0EB70591AB747E300BBB455 /* CoreData.framework */,
 				5470B53A1985123E00E4D941 /* Foundation.framework */,
