@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5470B5061985122200E4D941"
-               BuildableName = "MTLManagedObjectAdapter-Mac.framework"
+               BuildableName = "MTLManagedObjectAdapter.framework"
                BlueprintName = "MTLManagedObjectAdapter-Mac"
                ReferencedContainer = "container:MTLManagedObjectAdapter.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5470B5061985122200E4D941"
-            BuildableName = "MTLManagedObjectAdapter-Mac.framework"
+            BuildableName = "MTLManagedObjectAdapter.framework"
             BlueprintName = "MTLManagedObjectAdapter-Mac"
             ReferencedContainer = "container:MTLManagedObjectAdapter.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5470B5061985122200E4D941"
-            BuildableName = "MTLManagedObjectAdapter-Mac.framework"
+            BuildableName = "MTLManagedObjectAdapter.framework"
             BlueprintName = "MTLManagedObjectAdapter-Mac"
             ReferencedContainer = "container:MTLManagedObjectAdapter.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5470B5061985122200E4D941"
-            BuildableName = "MTLManagedObjectAdapter-Mac.framework"
+            BuildableName = "MTLManagedObjectAdapter.framework"
             BlueprintName = "MTLManagedObjectAdapter-Mac"
             ReferencedContainer = "container:MTLManagedObjectAdapter.xcodeproj">
          </BuildableReference>

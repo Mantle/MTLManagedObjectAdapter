@@ -31,6 +31,8 @@
 		D0EB705A1AB747E300BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70591AB747E300BBB455 /* CoreData.framework */; };
 		D0EB705B1AB747EA00BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50E1985122200E4D941 /* CoreData.framework */; };
 		D0EB705C1AB747F000BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70591AB747E300BBB455 /* CoreData.framework */; };
+		D0EB705E1AB7487D00BBB455 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB705D1AB7487D00BBB455 /* Mantle.framework */; };
+		D0EB705F1AB748C900BBB455 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB705D1AB7487D00BBB455 /* Mantle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,7 @@
 		D0EB70571AB747BE00BBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB70581AB747C300BBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB70591AB747E300BBB455 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		D0EB705D1AB7487D00BBB455 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB705E1AB7487D00BBB455 /* Mantle.framework in Frameworks */,
 				D0EB705B1AB747EA00BBB455 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EB705A1AB747E300BBB455 /* CoreData.framework in Frameworks */,
+				D0EB705F1AB748C900BBB455 /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +166,8 @@
 		5470B5091985122200E4D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB705D1AB7487D00BBB455 /* Mantle.framework */,
 				D0EB70591AB747E300BBB455 /* CoreData.framework */,
-				5470B5BF19851F3900E4D941 /* libextobjc */,
 				5470B53A1985123E00E4D941 /* Foundation.framework */,
 				5470B51F1985122200E4D941 /* XCTest.framework */,
 				5470B50C1985122200E4D941 /* Other Frameworks */,
@@ -193,6 +198,7 @@
 		5470B5111985122200E4D941 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5470B5BF19851F3900E4D941 /* libextobjc */,
 				D0EB70581AB747C300BBB455 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -296,7 +302,7 @@
 				5470B5C519851F3900E4D941 /* metamacros.h */,
 			);
 			name = libextobjc;
-			path = MTLManagedObjectAdapter/extobjc;
+			path = extobjc;
 			sourceTree = "<group>";
 		};
 		5470B5D01985202F00E4D941 /* Specs */ = {
@@ -861,6 +867,7 @@
 				D0EB704B1AB744E400BBB455 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EB704C1AB744E400BBB455 /* Build configuration list for PBXNativeTarget "MTLManagedObjectAdapter-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -871,6 +878,7 @@
 				D0EB70501AB744E400BBB455 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
