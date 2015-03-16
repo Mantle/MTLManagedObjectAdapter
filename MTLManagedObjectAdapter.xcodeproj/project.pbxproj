@@ -35,6 +35,8 @@
 		D0EB70671AB74A2200BBB455 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70661AB74A2200BBB455 /* Nimble.framework */; };
 		D0EB70681AB74A2200BBB455 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70661AB74A2200BBB455 /* Nimble.framework */; };
 		D0EB70691AB74A2900BBB455 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70631AB74A0A00BBB455 /* Quick.framework */; };
+		D0EB706C1AB74C4100BBB455 /* SwiftJunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */; };
+		D0EB706D1AB74C4100BBB455 /* SwiftJunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,7 @@
 		D0EB705D1AB7487D00BBB455 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB70631AB74A0A00BBB455 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB70661AB74A2200BBB455 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJunk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				D0EB70571AB747BE00BBB455 /* Info.plist */,
+				D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */,
 				5470B5D11985208C00E4D941 /* MTLCoreDataObjects.h */,
 				5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */,
 				5470B5D31985208C00E4D941 /* MTLCoreDataTestModels.h */,
@@ -504,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5470B52C1985122300E4D941 /* MTLManagedObjectAdapterSpec.m in Sources */,
+				D0EB706C1AB74C4100BBB455 /* SwiftJunk.swift in Sources */,
 				5470B5D71985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */,
 				5470B5D51985208C00E4D941 /* MTLCoreDataObjects.m in Sources */,
 				5470B5DB1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */,
@@ -527,6 +532,7 @@
 				D0EB70561AB747B100BBB455 /* TestModel.xcdatamodeld in Sources */,
 				D0EB70551AB747AC00BBB455 /* MTLCoreDataTestModels.m in Sources */,
 				D0EB70541AB747AC00BBB455 /* MTLCoreDataObjects.m in Sources */,
+				D0EB706D1AB74C4100BBB455 /* SwiftJunk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +557,7 @@
 			baseConfigurationReference = 5470B58A198514F700E4D941 /* Debug.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -562,7 +568,7 @@
 			baseConfigurationReference = 5470B58C198514F700E4D941 /* Release.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -597,11 +603,13 @@
 			baseConfigurationReference = 5470B596198514F700E4D941 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -609,6 +617,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -618,11 +627,13 @@
 			baseConfigurationReference = 5470B596198514F700E4D941 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -639,7 +650,7 @@
 			baseConfigurationReference = 5470B58D198514F700E4D941 /* Test.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -662,11 +673,13 @@
 			baseConfigurationReference = 5470B596198514F700E4D941 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -674,6 +687,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Test;
@@ -683,7 +697,7 @@
 			baseConfigurationReference = 5470B58B198514F700E4D941 /* Profile.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -706,11 +720,13 @@
 			baseConfigurationReference = 5470B596198514F700E4D941 /* Mac-Application.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLManagedObjectAdapter.framework/Versions/A/MTLManagedObjectAdapter";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -782,12 +798,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -795,12 +814,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Test;
 		};
@@ -808,11 +830,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -821,11 +845,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5470B592198514F700E4D941 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MTLManagedObjectAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Profile;
