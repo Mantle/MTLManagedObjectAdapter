@@ -37,6 +37,7 @@
 		D0EB70691AB74A2900BBB455 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70631AB74A0A00BBB455 /* Quick.framework */; };
 		D0EB706C1AB74C4100BBB455 /* SwiftJunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */; };
 		D0EB706D1AB74C4100BBB455 /* SwiftJunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB706B1AB74C4100BBB455 /* SwiftJunk.swift */; };
+		D0EB706E1AB74D5E00BBB455 /* MTLManagedObjectAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -530,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EB70561AB747B100BBB455 /* TestModel.xcdatamodeld in Sources */,
+				D0EB706E1AB74D5E00BBB455 /* MTLManagedObjectAdapterSpec.m in Sources */,
 				D0EB70551AB747AC00BBB455 /* MTLCoreDataTestModels.m in Sources */,
 				D0EB70541AB747AC00BBB455 /* MTLCoreDataObjects.m in Sources */,
 				D0EB706D1AB74C4100BBB455 /* SwiftJunk.swift in Sources */,
