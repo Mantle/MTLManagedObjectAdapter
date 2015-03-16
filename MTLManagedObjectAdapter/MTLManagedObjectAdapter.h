@@ -8,6 +8,12 @@
 
 #import <CoreData/CoreData.h>
 
+//! Project version number for MTLManagedObjectAdapter.
+FOUNDATION_EXPORT double MTLManagedObjectAdapterVersionNumber;
+
+//! Project version string for MTLManagedObjectAdapter.
+FOUNDATION_EXPORT const unsigned char MTLManagedObjectAdapterVersionString[];
+
 @protocol MTLModel;
 
 // A MTLModel object that supports being serialized to and from Core Data as an

@@ -63,6 +63,10 @@ NSString * const MTLCoreDataTestModelsDomain = @"MTLCoreDataTestModelsDomain";
 	};
 }
 
+- (NSString *)description {
+	return [NSString stringWithFormat:@"<%@: %p>", self.class, self];
+}
+
 @end
 
 @implementation MTLParentMergingTestModel

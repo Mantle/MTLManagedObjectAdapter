@@ -7,6 +7,7 @@
 //
 
 #import <Mantle/Mantle.h>
+#import <MTLManagedObjectAdapter/MTLManagedObjectAdapter.h>
 #import <CoreData/CoreData.h>
 
 extern NSString * const MTLCoreDataTestModelsDomain;

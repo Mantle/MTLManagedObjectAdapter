@@ -8,7 +8,7 @@
 
 #import <objc/runtime.h>
 
-#import "Mantle/Mantle.h"
+#import <Mantle/Mantle.h>
 
 #import "EXTScope.h"
 #import "EXTRuntimeExtensions.h"
