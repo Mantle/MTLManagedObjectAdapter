@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
 
-#import "MTLCoreDataObjects.h"
+#import <MTLManagedObjectAdapter/MTLManagedObjectAdapter.h>'
 
+#import "MTLCoreDataObjects.h"
 #import "MTLCoreDataTestModels.h"
 
 SpecBegin(MTLManagedObjectAdapter)
