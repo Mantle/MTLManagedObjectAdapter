@@ -23,6 +23,14 @@
 		5470B5DB1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
 		5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50E1985122200E4D941 /* CoreData.framework */; };
 		D0EB703F1AB744E400BBB455 /* MTLManagedObjectAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70341AB744E400BBB455 /* MTLManagedObjectAdapter.framework */; };
+		D0EB70521AB7479700BBB455 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5171985122200E4D941 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EB70531AB7479700BBB455 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
+		D0EB70541AB747AC00BBB455 /* MTLCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */; };
+		D0EB70551AB747AC00BBB455 /* MTLCoreDataTestModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */; };
+		D0EB70561AB747B100BBB455 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
+		D0EB705A1AB747E300BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70591AB747E300BBB455 /* CoreData.framework */; };
+		D0EB705B1AB747EA00BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50E1985122200E4D941 /* CoreData.framework */; };
+		D0EB705C1AB747F000BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70591AB747E300BBB455 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +55,10 @@
 		5470B50D1985122200E4D941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5470B50E1985122200E4D941 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5470B50F1985122200E4D941 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5470B5121985122200E4D941 /* MTLManagedObjectAdapter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTLManagedObjectAdapter-Info.plist"; sourceTree = "<group>"; };
 		5470B5171985122200E4D941 /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
 		5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
 		5470B51E1985122200E4D941 /* MTLManagedObjectAdapter-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTLManagedObjectAdapter-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5470B51F1985122200E4D941 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5470B5271985122200E4D941 /* MTLManagedObjectAdapterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTLManagedObjectAdapterTests-Info.plist"; sourceTree = "<group>"; };
 		5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLManagedObjectAdapterSpec.m; sourceTree = "<group>"; };
 		5470B53A1985123E00E4D941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5470B588198514F700E4D941 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -82,10 +88,12 @@
 		5470B5D31985208C00E4D941 /* MTLCoreDataTestModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLCoreDataTestModels.h; sourceTree = "<group>"; };
 		5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLCoreDataTestModels.m; sourceTree = "<group>"; };
 		5470B5DA1985209E00E4D941 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
-		5470B5DD198520C500E4D941 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		D0EB70341AB744E400BBB455 /* MTLManagedObjectAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTLManagedObjectAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB703E1AB744E400BBB455 /* MTLManagedObjectAdapter-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTLManagedObjectAdapter-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB70511AB7450800BBB455 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		D0EB70571AB747BE00BBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EB70581AB747C300BBB455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EB70591AB747E300BBB455 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB705B1AB747EA00BBB455 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB705A1AB747E300BBB455 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EB703F1AB744E400BBB455 /* MTLManagedObjectAdapter.framework in Frameworks */,
+				D0EB705C1AB747F000BBB455 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +161,8 @@
 		5470B5091985122200E4D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB70591AB747E300BBB455 /* CoreData.framework */,
 				5470B5BF19851F3900E4D941 /* libextobjc */,
-				5470B5DD198520C500E4D941 /* CoreData.framework */,
 				5470B53A1985123E00E4D941 /* Foundation.framework */,
 				5470B51F1985122200E4D941 /* XCTest.framework */,
 				5470B50C1985122200E4D941 /* Other Frameworks */,
@@ -182,7 +193,7 @@
 		5470B5111985122200E4D941 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5470B5121985122200E4D941 /* MTLManagedObjectAdapter-Info.plist */,
+				D0EB70581AB747C300BBB455 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,12 +210,12 @@
 		5470B5261985122200E4D941 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB70571AB747BE00BBB455 /* Info.plist */,
 				5470B5D11985208C00E4D941 /* MTLCoreDataObjects.h */,
 				5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */,
 				5470B5D31985208C00E4D941 /* MTLCoreDataTestModels.h */,
 				5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */,
 				5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */,
-				5470B5271985122200E4D941 /* MTLManagedObjectAdapterTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -315,6 +326,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70521AB7479700BBB455 /* MTLManagedObjectAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70531AB7479700BBB455 /* MTLManagedObjectAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +510,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70561AB747B100BBB455 /* TestModel.xcdatamodeld in Sources */,
+				D0EB70551AB747AC00BBB455 /* MTLCoreDataTestModels.m in Sources */,
+				D0EB70541AB747AC00BBB455 /* MTLCoreDataObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
