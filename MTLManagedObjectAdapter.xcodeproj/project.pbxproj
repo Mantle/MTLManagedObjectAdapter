@@ -12,12 +12,8 @@
 		5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5071985122200E4D941 /* MTLManagedObjectAdapter.framework */; };
 		5470B52C1985122300E4D941 /* MTLManagedObjectAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */; };
 		5470B583198512AE00E4D941 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5171985122200E4D941 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5470B5C619851F3900E4D941 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */; };
-		5470B5C719851F3900E4D941 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */; };
 		5470B5C819851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
-		5470B5CB19851F3900E4D941 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C319851F3900E4D941 /* EXTScope.h */; };
 		5470B5CC19851F3900E4D941 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
-		5470B5CF19851F3900E4D941 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C519851F3900E4D941 /* metamacros.h */; };
 		5470B5D51985208C00E4D941 /* MTLCoreDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D21985208C00E4D941 /* MTLCoreDataObjects.m */; };
 		5470B5D71985208C00E4D941 /* MTLCoreDataTestModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */; };
 		5470B5DB1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
@@ -33,6 +29,8 @@
 		D0EB705C1AB747F000BBB455 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB70591AB747E300BBB455 /* CoreData.framework */; };
 		D0EB705E1AB7487D00BBB455 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB705D1AB7487D00BBB455 /* Mantle.framework */; };
 		D0EB705F1AB748C900BBB455 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB705D1AB7487D00BBB455 /* Mantle.framework */; };
+		D0EB70601AB748E700BBB455 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
+		D0EB70611AB748E700BBB455 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C419851F3900E4D941 /* EXTScope.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,11 +318,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5C719851F3900E4D941 /* EXTRuntimeExtensions.h in Headers */,
 				5470B583198512AE00E4D941 /* MTLManagedObjectAdapter.h in Headers */,
-				5470B5C619851F3900E4D941 /* EXTKeyPathCoding.h in Headers */,
-				5470B5CF19851F3900E4D941 /* metamacros.h in Headers */,
-				5470B5CB19851F3900E4D941 /* EXTScope.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +502,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB70611AB748E700BBB455 /* EXTScope.m in Sources */,
+				D0EB70601AB748E700BBB455 /* EXTRuntimeExtensions.m in Sources */,
 				D0EB70531AB7479700BBB455 /* MTLManagedObjectAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
