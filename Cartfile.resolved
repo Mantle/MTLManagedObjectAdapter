@@ -1,0 +1,4 @@
+github "Mantle/Mantle" "7f0176b6e4d7d6c4750d3745a0046556371c8210"
+github "Quick/Nimble" "v0.2.0"
+github "Quick/Quick" "v0.2.2"
+github "jspahrsummers/xcconfigs" "0.7.2"
