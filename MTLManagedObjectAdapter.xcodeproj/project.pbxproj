@@ -19,8 +19,6 @@
 		5470B583198512AE00E4D941 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5171985122200E4D941 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5470B584198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
 		5470B585198512B500E4D941 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5181985122200E4D941 /* MTLManagedObjectAdapter.m */; };
-		5470B5BB19851CA800E4D941 /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5BA19851CA800E4D941 /* libMantle-iOS.a */; };
-		5470B5BD19851CAD00E4D941 /* libMantle-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */; };
 		5470B5C619851F3900E4D941 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */; };
 		5470B5C719851F3900E4D941 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */; };
 		5470B5C819851F3900E4D941 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */; };
@@ -39,12 +37,6 @@
 		5470B5DC1985209E00E4D941 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5470B5D91985209E00E4D941 /* TestModel.xcdatamodeld */; };
 		5470B5DE198520C500E4D941 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5DD198520C500E4D941 /* CoreData.framework */; };
 		5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B50E1985122200E4D941 /* CoreData.framework */; };
-		5470B5E41985234300E4D941 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5E0198520E100E4D941 /* Mantle.framework */; };
-		5470B5E51985235200E4D941 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470B5E0198520E100E4D941 /* Mantle.framework */; };
-		54B8B01D1985305D0035AF84 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */; };
-		54B8B01F198530650035AF84 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B01E198530650035AF84 /* libExpecta.a */; };
-		54B8B021198530B20035AF84 /* libExpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B020198530B20035AF84 /* libExpecta-iOS.a */; };
-		54B8B023198530B80035AF84 /* libSpecta-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B8B022198530B80035AF84 /* libSpecta-iOS.a */; };
 		54B8B024198531190035AF84 /* MTLManagedObjectAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470B52B1985122300E4D941 /* MTLManagedObjectAdapterSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -120,8 +112,6 @@
 		5470B59A198514F700E4D941 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		5470B59B198514F700E4D941 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5470B5A81985161600E4D941 /* MTLManagedObjectAdapterTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLManagedObjectAdapterTests-Prefix.pch"; sourceTree = "<group>"; };
-		5470B5BA19851CA800E4D941 /* libMantle-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMantle-iOS.a"; path = "External/Mantle/build/Debug/libMantle-iOS.a"; sourceTree = "<group>"; };
-		5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMantle-Mac.a"; path = "External/Mantle/build/Debug/libMantle-Mac.a"; sourceTree = "<group>"; };
 		5470B5C019851F3900E4D941 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		5470B5C119851F3900E4D941 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		5470B5C219851F3900E4D941 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
@@ -134,11 +124,6 @@
 		5470B5D41985208C00E4D941 /* MTLCoreDataTestModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLCoreDataTestModels.m; sourceTree = "<group>"; };
 		5470B5DA1985209E00E4D941 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		5470B5DD198520C500E4D941 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		5470B5E0198520E100E4D941 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../Library/Developer/Xcode/DerivedData/MTLManagedObjectAdapter-ftcciwcfncdxfxdhtowxujfgekri/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
-		54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-OSX.a"; path = "MTLManagedObjectAdapterTests/specta/build/Debug/libSpecta-OSX.a"; sourceTree = "<group>"; };
-		54B8B01E198530650035AF84 /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = MTLManagedObjectAdapterTests/expecta/build/Debug/libExpecta.a; sourceTree = "<group>"; };
-		54B8B020198530B20035AF84 /* libExpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libExpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/expecta/build/Debug-iphoneos/libExpecta-iOS.a"; sourceTree = "<group>"; };
-		54B8B022198530B80035AF84 /* libSpecta-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSpecta-iOS.a"; path = "MTLManagedObjectAdapterTests/specta/build/Test-iphoneos/libSpecta-iOS.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +131,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5E41985234300E4D941 /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,9 +140,6 @@
 			files = (
 				5470B5DF198520CB00E4D941 /* CoreData.framework in Frameworks */,
 				5470B5201985122200E4D941 /* XCTest.framework in Frameworks */,
-				5470B5E51985235200E4D941 /* Mantle.framework in Frameworks */,
-				54B8B01D1985305D0035AF84 /* libSpecta-OSX.a in Frameworks */,
-				54B8B01F198530650035AF84 /* libExpecta.a in Frameworks */,
 				5470B5241985122200E4D941 /* MTLManagedObjectAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,7 +148,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5BB19851CA800E4D941 /* libMantle-iOS.a in Frameworks */,
 				5470B53B1985123E00E4D941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,8 +160,6 @@
 				5470B5491985123E00E4D941 /* Foundation.framework in Frameworks */,
 				5470B5481985123E00E4D941 /* XCTest.framework in Frameworks */,
 				5470B54E1985123E00E4D941 /* libMTLManagedObjectAdapter-iOS.a in Frameworks */,
-				54B8B021198530B20035AF84 /* libExpecta-iOS.a in Frameworks */,
-				54B8B023198530B80035AF84 /* libSpecta-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +167,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5470B5BD19851CAD00E4D941 /* libMantle-Mac.a in Frameworks */,
 				5470B5621985124800E4D941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,16 +201,9 @@
 		5470B5091985122200E4D941 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54B8B022198530B80035AF84 /* libSpecta-iOS.a */,
-				54B8B020198530B20035AF84 /* libExpecta-iOS.a */,
-				54B8B01E198530650035AF84 /* libExpecta.a */,
-				54B8B01C1985305D0035AF84 /* libSpecta-OSX.a */,
+				5470B5BF19851F3900E4D941 /* libextobjc */,
 				5470B5DD198520C500E4D941 /* CoreData.framework */,
 				5470B53A1985123E00E4D941 /* Foundation.framework */,
-				5470B5BF19851F3900E4D941 /* libextobjc */,
-				5470B5BA19851CA800E4D941 /* libMantle-iOS.a */,
-				5470B5BC19851CAD00E4D941 /* libMantle-Mac.a */,
-				5470B5E0198520E100E4D941 /* Mantle.framework */,
 				5470B51F1985122200E4D941 /* XCTest.framework */,
 				5470B50C1985122200E4D941 /* Other Frameworks */,
 			);
@@ -300,7 +270,8 @@
 				5470B595198514F700E4D941 /* Mac OS X */,
 				5470B59B198514F700E4D941 /* README.md */,
 			);
-			path = Configuration;
+			name = Configuration;
+			path = Carthage/Checkouts/xcconfigs;
 			sourceTree = "<group>";
 		};
 		5470B587198514F700E4D941 /* Base */ = {
@@ -647,8 +618,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -682,8 +653,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -971,8 +942,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -1138,8 +1109,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Profile;
