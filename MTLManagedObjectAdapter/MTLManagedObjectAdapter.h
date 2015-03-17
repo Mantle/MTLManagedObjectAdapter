@@ -77,9 +77,9 @@ FOUNDATION_EXPORT const unsigned char MTLManagedObjectAdapterVersionString[];
 // of them will be set with our MTLModel's values.
 + (NSSet *)propertyKeysForManagedObjectUniquing;
 
-// Specifies how to convert the given property key to a managed object
-// attribute. If reversible, the transformer will also be used to convert the
-// managed object attribute back to the property.
+// Specifies how to convert a managed object attribute into the given property
+// key. If reversible, the transformer will also be used to convert the property
+// back into a managed object attribute.
 //
 // If the receiver implements a `+<key>EntityAttributeTransformer` method,
 // MTLManagedObjectAdapter will use the result of that method instead.
