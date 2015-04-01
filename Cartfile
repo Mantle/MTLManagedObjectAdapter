@@ -1,1 +1,1 @@
-github "Mantle/Mantle" "2.0-development"
+github "Mantle/Mantle" ~> 2.0
