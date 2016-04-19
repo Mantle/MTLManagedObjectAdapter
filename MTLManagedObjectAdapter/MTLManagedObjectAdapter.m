@@ -751,7 +751,7 @@ static SEL MTLSelectorWithKeyPattern(NSString *key, const char *suffix) {
 			transformer = [self.class transformerForModelPropertiesOfClass:attributes->objectClass];
 		}
 
-		if (transformer == nil && attributes->type != NULL) {
+		if (transformer == nil) {
 			transformer = [self.class transformerForModelPropertiesOfObjCType:attributes->type];
 		}
 
